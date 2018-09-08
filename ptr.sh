@@ -1,3 +1,5 @@
+# This script will check PTR records of multiple IP addresses.
+
 #!/bin/bash
 echo Enter 3 Digit of IPs
 read d
