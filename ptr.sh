@@ -6,9 +6,7 @@ read s
 echo End range
 read e
 for ((i=$s;i<=$e;i++))
-#for i in $s..$e
 do
 host $d.$i
 echo
-#nslookup $d.$i
 done;
