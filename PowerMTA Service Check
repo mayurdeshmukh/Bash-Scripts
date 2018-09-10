@@ -1,0 +1,18 @@
+# This is a simple bash script to check service status of PowerMTA. You can use this script as a Nagios plugin to check status pmta service.
+
+#!/bin/bash
+declare -i a=0
+
+b=$[`pidof pmtad`]
+
+if [ $b -ne $a ]
+then
+        echo PMTA is running
+
+        exit 0
+else
+        echo  PMTA STOPPED
+        exit 1
+        
+        
+fi 
