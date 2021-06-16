@@ -1,5 +1,5 @@
 # This is a simple bash script to check service status of PowerMTA. You can use this script as a Nagios plugin.
-
+#
 #!/bin/bash
 declare -i a=0
 
